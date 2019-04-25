@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var in, fl, st = 1, 1.0, "hello"
 
-	fmt.Println(in)
-	fmt.Println(fl)
-	fmt.Println(st)
+	fmt.Printf("%T\n", in)
+	fmt.Printf("%T\n", fl)
+	fmt.Printf("%T\n", st)
 }
